@@ -7,8 +7,8 @@ import cucumber.api.java.Before;
 import cucumber.api.java.tr.Diyelimki;
 import cucumber.api.java.tr.Ozaman;
 import cucumber.api.java.tr.Ve;
-import test.tools.selenium.cucumber.tr.CucumberBaseTR;
-import test.tools.selenium.cucumber.tr.CucumberBaseTRInterface;
+import test.tools.selenium.cucumber.TR.CucumberBaseTR;
+import test.tools.selenium.cucumber.TR.CucumberBaseTRInterface;
 import test.tools.selenium.report.extent.ExtentReportTestCaseFrame;
 
 public class CucumberSteps extends ExtentReportTestCaseFrame implements CucumberBaseTRInterface {

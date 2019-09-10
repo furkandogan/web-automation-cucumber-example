@@ -16,9 +16,9 @@ services:
     ports:
       - 4444:4444
     command: >
-      start --desiredContainers 30
-            --maxDockerSeleniumContainers 30
-            --maxTestSessions 25
+      start --desiredContainers 2
+            --maxDockerSeleniumContainers 2
+            --maxTestSessions 2
             --screenWidth 1920 --screenHeight 1080
             --timeZone "Europe/Istanbul"
             --videoRecordingEnabled true
